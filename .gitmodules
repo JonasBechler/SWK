@@ -6,6 +6,14 @@
 	path = SWK_Konrad_Server
 	url = git@github.com:JonasBechler/SWK_Konrad_Server.git
 
+[submodule "SWK_Handyticket_React"]
+	path = SWK_Handyticket_React
+	url = git@github.com:JonasBechler/SWK_Handyticket_React.git
+
+[submodule "SWK_Handyticket_Server"]
+	path = SWK_Handyticket_Server
+	url = git@github.com:JonasBechler/SWK_Handyticket_Server.git
+
 [submodule "SWK_Native"]
 	path = SWK_Native
 	url = git@github.com:JonasBechler/SWK_Native.git
