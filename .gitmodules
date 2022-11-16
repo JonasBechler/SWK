@@ -39,3 +39,6 @@
 	path = SWK_Server_Template
 	url = git@github.com:JonasBechler/SWK_Server_Template.git
 
+[submodule "SWK_FusionAuth"]
+	path = SWK_FusionAuth
+	url = git@github.com:JonasBechler/SWK_FusionAuth.git
