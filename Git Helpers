@@ -1,6 +1,10 @@
-at first run
-git submodule update --init 
-git 
+to clone everything run 
+git clone --recurse-submodules git@github.com:JonasBechler/SWK.git
+
+to update to the newest version
+git submodule foreach --recursive git fetch
+git submodule foreach --recursive git checkout dev
+
 
 fetch all repos
 git submodule foreach --recursive git fetch
