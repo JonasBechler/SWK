@@ -1,0 +1,9 @@
+at first run
+git submodule update --init 
+git 
+
+fetch all repos
+git submodule foreach --recursive git fetch
+
+pull newest from dev
+git submodule foreach --recursive git checkout dev
