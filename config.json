@@ -8,17 +8,20 @@
 
     "login":{
         "port": 2000,
-        "port_react": 2100
+        "port_react": 2100,
+        "session_secret": "njkdfnvkjfndksnvls"
     },
 
     "konrad":{
         "port": 3000,
-        "port_react": 3100
+        "port_react": 3100,
+        "session_secret": "gviehinmxhsöodjcshi"
     },
     
     "handyticket":{
         "port": 4000,
-        "port_react": 4100
+        "port_react": 4100,
+        "session_secret": "jcshgfmshfgmclsfh,cgls"
     }
     
 }
