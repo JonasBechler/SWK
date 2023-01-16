@@ -7,8 +7,8 @@
     "fusionauth_port": 9011,
 
     "login":{
-        "port": 2000,
-        "port_react": 2100,
+        "port": 50010,
+        "port_react": 50011,
         "session_secret": "njkdfnvkjfndksnvls",
         "fusionauth":{
             "client_id": "c4f0cc44-d3cc-4b76-a68f-91e2df829cd9",
@@ -17,8 +17,8 @@
     },
 
     "konrad":{
-        "port": 3000,
-        "port_react": 3100,
+        "port": 50020,
+        "port_react": 50021,
         "session_secret": "gviehinmxhsöodjcshi",
         "fusionauth":{
             "client_id": "aeddeb0d-41ce-484d-b8b3-f250b65a4ce6",
@@ -27,8 +27,8 @@
     },
     
     "handyticket":{
-        "port": 4000,
-        "port_react": 4100,
+        "port": 50030,
+        "port_react": 50031,
         "session_secret": "jcshgfmshfgmclsfh,cgls",
         "fusionauth":{
             "client_id": "a7e50e16-6d0e-43ee-a87e-bcfb870129c2",
