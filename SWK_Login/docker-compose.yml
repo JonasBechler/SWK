@@ -1,0 +1,10 @@
+version: '3'
+services:
+  konrad:
+    build: 
+      dockerfile: Dockerfile
+    ports:
+      - "50010:50010"
+  
+
+

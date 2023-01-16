@@ -1,27 +1,27 @@
 [submodule "SWK_Login_React"]
-	path = SWK_Login_React
+	path = SWK_Login/SWK_Login_React
 	url = git@github.com:JonasBechler/SWK_Login_React.git
 
 [submodule "SWK_Login_Server"]
-	path = SWK_Login_Server
+	path = SWK_Login/SWK_Login_Server
 	url = git@github.com:JonasBechler/SWK_Login_Server.git
 
 
 [submodule "SWK_Konrad_React"]
-	path = SWK_Konrad_React
+	path = SWK_Konrad/SWK_Konrad_React
 	url = git@github.com:JonasBechler/SWK_Konrad_React.git
 
 [submodule "SWK_Konrad_Server"]
-	path = SWK_Konrad_Server
+	path = SWK_Konrad/SWK_Konrad_Server
 	url = git@github.com:JonasBechler/SWK_Konrad_Server.git
 
 
 [submodule "SWK_Handyticket_React"]
-	path = SWK_Handyticket_React
+	path = SWK_Handyticket/SWK_Handyticket_React
 	url = git@github.com:JonasBechler/SWK_Handyticket_React.git
 
 [submodule "SWK_Handyticket_Server"]
-	path = SWK_Handyticket_Server
+	path = SWK_Handyticket/SWK_Handyticket_Server
 	url = git@github.com:JonasBechler/SWK_Handyticket_Server.git
 
 

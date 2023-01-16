@@ -1,0 +1,10 @@
+version: '3'
+services:
+  handyticket:
+    build: 
+      dockerfile: Dockerfile
+    ports:
+      - "50030:50030"
+  
+
+
