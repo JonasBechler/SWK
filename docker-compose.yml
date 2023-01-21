@@ -6,28 +6,33 @@ services:
       context: ./SWK_Native
       dockerfile: Dockerfile
     ports:
-      - "19000:19000"
+      - 19000:19000
+
 
   login:
     build: 
       context: ./SWK_Login
       dockerfile: Dockerfile
     ports:
-      - "50010:50010"
+      - 50010:50010
+
 
   konrad:
     build: 
       context: ./SWK_Konrad
       dockerfile: Dockerfile
     ports:
-      - "50020:50020"
+      - 50020:50020
+
 
   handyticket:
     build: 
       context: ./SWK_Handyticket
       dockerfile: Dockerfile
     ports:
-      - "50030:50030"
+      - 50030:50030
+
+  
   
 
 
