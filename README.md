@@ -6,7 +6,7 @@ Es wird ein Testplatz aufgebaut um SSO von FusionAuth mit verschiedenen Anwendun
 ## Projekt einrichten
 
 ```
-git clone --recurse-submodules git@github.com:JonasBechler/SWK.git
+git clone --recurse-submodules https://github.com/JonasBechler/SWK.git
 cd SWK
 git checkout dev
 docker-compose create
@@ -18,7 +18,7 @@ docker-compose start
 
 ## Projekt starten
 ```
-docker-compose up
+docker-compose up -d
 ```
 
 
@@ -30,5 +30,5 @@ docker-compose down
 
 ### Datenbank speichern
 ```
-docker exec -t swk_fusionauth-db-1 pg_dumpall -c -U postgres > backup/backup_`date +%d-%m-%Y"_"%H_%M_%S`
+docker exec -t sso-db-1 pg_dumpall -c -U postgres > SWK_FusionAuth/backup/backup_`date +%d-%m-%Y"_"%H_%M_%S`
 ```

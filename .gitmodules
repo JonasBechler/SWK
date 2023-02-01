@@ -1,44 +1,44 @@
 [submodule "SWK_Login_React"]
 	path = SWK_Login/SWK_Login_React
-	url = git@github.com:JonasBechler/SWK_Login_React.git
+	url = https://github.com/JonasBechler/SWK_Login_React.git
 
 [submodule "SWK_Login_Server"]
 	path = SWK_Login/SWK_Login_Server
-	url = git@github.com:JonasBechler/SWK_Login_Server.git
+	url = https://github.com/JonasBechler/SWK_Login_Server.git
 
 
 [submodule "SWK_Konrad_React"]
 	path = SWK_Konrad/SWK_Konrad_React
-	url = git@github.com:JonasBechler/SWK_Konrad_React.git
+	url = https://github.com/JonasBechler/SWK_Konrad_React.git
 
 [submodule "SWK_Konrad_Server"]
 	path = SWK_Konrad/SWK_Konrad_Server
-	url = git@github.com:JonasBechler/SWK_Konrad_Server.git
+	url = https://github.com/JonasBechler/SWK_Konrad_Server.git
 
 
 [submodule "SWK_Handyticket_React"]
 	path = SWK_Handyticket/SWK_Handyticket_React
-	url = git@github.com:JonasBechler/SWK_Handyticket_React.git
+	url = https://github.com/JonasBechler/SWK_Handyticket_React.git
 
 [submodule "SWK_Handyticket_Server"]
 	path = SWK_Handyticket/SWK_Handyticket_Server
-	url = git@github.com:JonasBechler/SWK_Handyticket_Server.git
+	url = https://github.com/JonasBechler/SWK_Handyticket_Server.git
 
 
 [submodule "SWK_Native"]
 	path = SWK_Native
-	url = git@github.com:JonasBechler/SWK_Native.git
+	url = https://github.com/JonasBechler/SWK_Native.git
 
 
 [submodule "SWK_React_Template"]
 	path = SWK_React_Template
-	url = git@github.com:JonasBechler/SWK_React_Template.git
+	url = https://github.com/JonasBechler/SWK_React_Template.git
 
 
 [submodule "SWK_Server_Template"]
 	path = SWK_Server_Template
-	url = git@github.com:JonasBechler/SWK_Server_Template.git
+	url = https://github.com/JonasBechler/SWK_Server_Template.git
 
 [submodule "SWK_FusionAuth"]
 	path = SWK_FusionAuth
-	url = git@github.com:JonasBechler/SWK_FusionAuth.git
+	url = https://github.com/JonasBechler/SWK_FusionAuth.git
