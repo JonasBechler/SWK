@@ -22,7 +22,7 @@ def main():
 
     shutil.copyfile(main_config, konrad_config)
     shutil.copyfile(main_config, konrad_react_config)
-    
+
     shutil.copyfile(main_config, login_config)
     shutil.copyfile(main_config, login_react_config)
 
