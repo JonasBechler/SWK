@@ -1,9 +1,12 @@
 # SWK_Single_Sign_On
 
-Hier befindet sich die Umsetztung meiner Bachelorarbeit bei den Stadtwerken Konstanz. 
-Es wird ein Testplatz aufgebaut um SSO von FusionAuth mit verschiedenen Anwendungen zu testen.  
+This is the code entry point for my bachelor thesis. It is an example how different Applicatins can work together in a native environment. The following lines of code help to reproduce the final example. 
 
-## Projekt einrichten
+It is important mention that a specific local ip adresses must be used for the host system to get it up and running which is 192.168.178.0 . This can be changen in the FusionAuth's Application settings at http://localhost:9011/ with the admin user admin@admin.de and its password adminadmin. An example user given as maxmuster@web.de and it's simple password 12345678 . 
+
+A more specific overview is given in the Report under document.pdf which will be released when the project is finished.
+
+## Setup
 
 ```
 git clone --recurse-submodules https://github.com/JonasBechler/SWK.git
@@ -16,19 +19,19 @@ docker-compose start
 ```
 
 
-## Projekt starten
+## Start up
 ```
 docker-compose up -d
 ```
 
 
-## Projekt stoppen
+## Shut down
 ```
 docker-compose down
 ```
 
 
-### Datenbank speichern
+### Save Settings
 ```
 docker exec -t sso-db-1 pg_dumpall -c -U postgres > SWK_FusionAuth/backup/backup_`date +%d-%m-%Y"_"%H_%M_%S`
 ```
