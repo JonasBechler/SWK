@@ -33,5 +33,5 @@ docker-compose down
 
 ### Save Settings
 ```
-docker exec -t sso-db-1 pg_dumpall -c -U postgres > SWK_FusionAuth/backup/backup_`date +%d-%m-%Y"_"%H_%M_%S`
+docker exec -t sso-db-1 pg_dumpall -c -U postgres > SWK_FusionAuth/backup/backup_`date +%d-%m-%Y"_"%H_%M_%S`.sql
 ```
